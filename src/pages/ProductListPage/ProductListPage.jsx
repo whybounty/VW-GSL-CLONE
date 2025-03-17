@@ -5,6 +5,7 @@ import ListPageHeader from '../../components/ListPageHeader/ListPageHeader'
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs"
 import Header from "../../components/Header/Header"
 import ListPageHeaderInfo from '../../components/ListPageHeaderInfo/ListPageHeaderInfo'
+import ResultSection from '../../components/ResultSection/ResultSection'
 
 export default function ProductListPage() {
   const breadcrumbItems = [
@@ -26,7 +27,9 @@ export default function ProductListPage() {
           <ListPageHeaderInfo />
 
         </S.HeaderWrapper>
+        <ResultSection />
       </S.ListPageWrapper>
+
 
     </S.ListPage>
   );
